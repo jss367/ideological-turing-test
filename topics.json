@@ -1,0 +1,14 @@
+[
+    {
+        "topic": "Abortion",
+        "positions": ["Pro-choice", "Pro-life"]
+    },
+    {
+        "topic": "Free Speech",
+        "positions": ["For", "Against"]
+    },
+    {
+        "topic": "Gun Rights",
+        "positions": ["For stricter gun laws", "Against stricter gun laws"]
+    }
+]
