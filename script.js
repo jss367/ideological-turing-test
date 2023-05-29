@@ -14,5 +14,8 @@ document.getElementById('randomizeBtn').addEventListener('click', function() {
 
         document.getElementById('topic').textContent = `Your topic is: ${topicData.topic}`;
         document.getElementById('position').textContent = `You need to argue: ${position}`;
+
+        // Show the result div
+        document.getElementById('result').classList.add('show');
     }, 2000);
 });
