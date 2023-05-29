@@ -7,22 +7,17 @@ let topics = [
 
 let positions = ["For", "Against"];
 
-document.getElementById('startBtn').addEventListener('click', function() {
-    let topic = topics[Math.floor(Math.random() * topics.length)];
-    let position = positions[Math.floor(Math.random() * positions.length)];
+document.getElementById('randomizeBtn').addEventListener('click', function() {
+    // Show loading text
+    document.getElementById('topic').textContent = "Loading...";
+    document.getElementById('position').textContent = "Loading...";
+    
+    // Timeout to simulate loading time
+    setTimeout(() => {
+        let topic = topics[Math.floor(Math.random() * topics.length)];
+        let position = positions[Math.floor(Math.random() * positions.length)];
 
-    document.getElementById('topic').textContent = `Your topic is: ${topic}`;
-    document.getElementById('position').textContent = `You need to argue: ${position}`;
-    document.getElementById('submitBtn').disabled = false;
-});
-
-document.getElementById('submitBtn').addEventListener('click', function() {
-    let argument = document.getElementById('argument').value;
-    if (!argument) {
-        alert('Please enter your argument');
-        return;
-    }
-    alert(`Your argument is: ${argument}`);
-    document.getElementById('submitBtn').disabled = true;
-    document.getElementById('argument').value = '';
+        document.getElementById('topic').textContent = `Your topic is: ${topic}`;
+        document.getElementById('position').textContent = `You need to argue: ${position}`;
+    }, 2000); // 2 seconds delay
 });
