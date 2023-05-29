@@ -1,1 +1,1 @@
-# ideological-turing-test
+# Ideological Turing Test
