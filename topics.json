@@ -10,5 +10,85 @@
     {
         "topic": "Gun Rights",
         "positions": ["For stricter gun laws", "Against stricter gun laws"]
+    },
+    {
+        "topic": "Climate Change",
+        "positions": ["Human-driven and urgent", "Natural and not urgent", "A hoax"]
+    },
+    {
+        "topic": "Universal Basic Income",
+        "positions": ["For", "Against"]
+    },
+    {
+        "topic": "Animal Rights",
+        "positions": ["For", "Against"]
+    },
+    {
+        "topic": "Vaccinations",
+        "positions": ["Mandatory", "Personal choice"]
+    },
+    {
+        "topic": "Artificial Intelligence",
+        "positions": ["Promising advancement", "Potential danger"]
+    },
+    {
+        "topic": "Censorship",
+        "positions": ["Necessary", "Unacceptable", "Depends on the context"]
+    },
+    {
+        "topic": "Cryptocurrencies",
+        "positions": ["Good for economy", "Bad for economy"]
+    },
+    {
+        "topic": "Education",
+        "positions": ["Public schools", "Private schools", "Home schooling"]
+    },
+    {
+        "topic": "Immigration",
+        "positions": ["Open borders", "Strict controls"]
+    },
+    {
+        "topic": "Healthcare",
+        "positions": ["Public healthcare", "Private healthcare"]
+    },
+    {
+        "topic": "Euthanasia",
+        "positions": ["For", "Against"]
+    },
+    {
+        "topic": "Death Penalty",
+        "positions": ["For", "Against"]
+    },
+    {
+        "topic": "Globalization",
+        "positions": ["Beneficial", "Detrimental"]
+    },
+    {
+        "topic": "Genetically Modified Organisms",
+        "positions": ["For", "Against"]
+    },
+    {
+        "topic": "Nuclear Energy",
+        "positions": ["For", "Against"]
+    },
+    {
+        "topic": "Privacy",
+        "positions": ["More important", "Security is more important"]
+    },
+    {
+        "topic": "Space Exploration",
+        "positions": ["Worth the cost", "Not worth the cost"]
+    },
+    {
+        "topic": "Political Correctness",
+        "positions": ["Necessary", "Suppresses free speech"]
+    },
+    {
+        "topic": "Religion in Schools",
+        "positions": ["Should be taught", "Should not be taught"]
+    },
+    {
+        "topic": "Social Media",
+        "positions": ["Good for society", "Bad for society"]
     }
 ]
